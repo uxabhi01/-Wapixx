@@ -1,0 +1,36 @@
+{
+  "name": "wapixx",
+  "version": "1.0.0",
+  "description": "An intelligent, context-aware WhatsApp customer assistant bot powered by Google Gemini AI and Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test:gemini": "node test-gemini.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uxabhi01/-Wapixx.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "gemini",
+    "ai",
+    "auto-responder",
+    "whatsapp-bot",
+    "wapixx",
+    "google-gemini",
+    "customer-service",
+    "automation"
+  ],
+  "author": "Abhishek jangid",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
