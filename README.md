@@ -1,4 +1,4 @@
-# 🤖 WhatsApp AI Auto-Responder Bot
+# 🤖 -Wapixx: WhatsApp AI Auto-Responder Bot
 
 <div align="center">
 
@@ -84,8 +84,8 @@ Before setting up the project, ensure you have:
 ### 1. Clone & Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/whatsapp-bot.git
-cd whatsapp-bot
+git clone https://github.com/uxabhi01/-Wapixx.git
+cd ./-Wapixx
 npm install
 ```
 
@@ -234,14 +234,14 @@ To keep your WhatsApp bot replying even when your personal computer is turned of
    ```
 2. Start the bot:
    ```bash
-   pm2 start index.js --name "whatsapp-bot"
+   pm2 start index.js --name "wapixx"
    ```
 3. Useful PM2 commands:
    ```bash
-   pm2 logs whatsapp-bot    # View live conversation logs
-   pm2 status               # Check uptime & memory
-   pm2 restart whatsapp-bot # Restart the bot
-   pm2 stop whatsapp-bot    # Stop the bot
+   pm2 logs wapixx    # View live conversation logs
+   pm2 status         # Check uptime & memory
+   pm2 restart wapixx # Restart the bot
+   pm2 stop wapixx    # Stop the bot
    ```
 
 ### Method 2: Deploy to a Cloud VPS (AWS, DigitalOcean, Oracle)
